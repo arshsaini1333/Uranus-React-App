@@ -4,7 +4,7 @@ import "./Body.css";
 export default function Body() {
   return (
     <div className="Body">
-      <h1>$URANUS Web</h1>
+      <h1 className="Uranus">$URANUS Web</h1>
       <div className="top">
         <div className="para">
           <h3>Astrological Insights for 2024</h3>

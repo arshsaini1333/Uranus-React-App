@@ -6,7 +6,7 @@
   justify-content: space-evenly;
 }
 
-.Body h1 {
+.Body .Uranus {
   padding: 1rem;
   width: 30%;
   align-self: center;
@@ -15,7 +15,16 @@
   color: white;
   text-align: center;
   border-radius: 15px;
+  transition: 200ms;
   /* width: 20vh; */
+}
+
+.Body .Uranus:hover {
+  color: #dd705a;
+  border: 3px solid #dd705a;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .Body p {
