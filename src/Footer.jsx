@@ -27,11 +27,26 @@ export default function Footer() {
           </a>
         </div>
         <div className="author">
-          <span>@ArshSaini</span>
-          <span>Terms</span>
-          <span>Conditions</span>
-          <span>Privacy</span>
-          <span>Policies</span>
+          <span>Partners: </span>
+          <span>
+            -
+            <a href="https://worldvibeweb.org/" target="_blank">
+              Purplerock
+            </a>
+          </span>
+          <span>
+            -
+            <a href="https://www.purplerock.xyz/" target="_blank">
+              World Vibe Web
+            </a>
+          </span>
+          <span>Resources: </span>
+          <span>
+            -
+            <a href="https://goldenmeme.org/" target="_blank">
+              Golden Memes
+            </a>
+          </span>
         </div>
       </div>
     </>
