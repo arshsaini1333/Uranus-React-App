@@ -51,11 +51,15 @@
   .Body .top {
     display: grid;
   }
-  .Body h1 {
+  .Body .Uranus {
     width: 65%;
     padding: 1rem;
   }
 }
 
-/* @media screen and (max-width: 600px) {
-} */
+@media screen and (max-width: 400px) {
+  .Body .Uranus {
+    width: 80%;
+    padding: 1rem;
+  }
+}
