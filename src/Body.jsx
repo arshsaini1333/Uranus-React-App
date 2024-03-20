@@ -4,9 +4,10 @@ import "./Body.css";
 export default function Body() {
   return (
     <div className="Body">
-      <h2>$URANUS Web</h2>
+      <h1>$URANUS Web</h1>
       <div className="top">
         <div className="para">
+          <h3>Astrological Insights for 2024</h3>
           Uranus, the ruler of Aquarius, starts 2024 in retrograde, going direct
           on <b>Saturday, January 27</b>, then retrogrades again on{" "}
           <b>Sunday, September 1</b>. This suggests ongoing evolution in your
@@ -21,12 +22,27 @@ export default function Body() {
           technology, and surprising events. Uranus perfectly mirrors Aquarius'
           distinctive attitude, complementing the nontraditional nature of these
           visionary air signs.
+          <h3>Features:</h3>
+          <ul>
+            <li>
+              Everyone Loves to Pump Uranus more then they like when Uranus
+              Dumps.
+            </li>
+            <li>The liquidity injections just keep coming into Uranus.</li>
+            <li>Don’t pass gas (it’s gonna be giant)</li>
+            <li>Hold onto Uranus!</li>
+            <li>
+              Disclaimer: This is all in good fun – a blend of memes, astrology,
+              and crypto. We will not go moon, we going to Uranus.
+            </li>
+          </ul>
         </div>
 
         <div className="img">
           <img src={rotateGif} alt="Uranus image" />
         </div>
       </div>
+      <div className="mid"></div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 .Body {
-  width: 80rem;
+  width: 95%;
   /* border: 2px solid black; */
   margin: 0px auto;
   padding: 1rem;
@@ -7,9 +7,16 @@
   justify-content: space-evenly;
 }
 
-.Body h2 {
-  color: rgb(11, 13, 54);
+.Body h1 {
+  padding: 1rem;
+  width: 30%;
+  align-self: center;
+  margin: 0px auto;
+  background-color: #dd705a;
+  color: white;
   text-align: center;
+  border-radius: 15px;
+  /* width: 20vh; */
 }
 
 .Body p {
@@ -17,15 +24,33 @@
 }
 
 .Body img {
-  height: 550px;
-  width: 550px;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
   margin-left: 20px;
 }
 
 .Body .top {
+  margin-top: 1.5rem;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* align-items: center; */
 }
+
+.top h3 {
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .Body .top {
+    display: grid;
+  }
+  .Body h1 {
+    width: 60%;
+    padding: 1rem;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+} */
