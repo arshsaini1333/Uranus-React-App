@@ -1,7 +1,7 @@
 .Body {
   width: 95%;
   margin: 0px auto;
-  padding: 1rem;
+  padding-top: 1rem;
   color: rgb(11, 13, 54);
   justify-content: space-evenly;
 }
@@ -132,5 +132,52 @@
     background-color: white !important;
     border: none;
     color: rgb(11, 13, 54);
+  }
+}
+
+.Body .bottom {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 55%;
+}
+
+.form {
+  width: 40% !important;
+}
+
+.bottom .btn {
+  margin-top: 10px;
+  width: 20%;
+  border: 2px solid rgb(11, 13, 54);
+  background-color: white;
+  color: rgb(11, 13, 54);
+  padding: 0.5rem;
+  transition: 500ms;
+}
+
+.bottom .btn:hover {
+  background-color: rgb(11, 13, 54);
+  color: white;
+}
+
+.form input {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .Body .bottom {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .content {
+    width: 95%;
+  }
+  .form {
+    width: 95% !important;
   }
 }

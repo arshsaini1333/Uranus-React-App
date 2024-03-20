@@ -105,6 +105,61 @@ export default function Body() {
           </div>
         </div>
       </div>
+      <h1 className="Uranus">Get In Touch</h1>
+      <div className="bottom">
+        <div className="content">
+          <h3>Why Do People Buy Meme Coins?</h3>
+          <p>
+            People buy meme coins for a variety of reasons. Some are attracted
+            to the potential for quick profits, driven by the high volatility
+            and speculative nature of these coins. Others join in for the sense
+            of community and culture surrounding meme coins, engaging in online
+            communities and sharing humorous content. Fear of missing out (FOMO)
+            also plays a role, prompting individuals to invest hastily to avoid
+            being left behind. Additionally, some see meme coins as a form of
+            experimentation or entertainment, enjoying the excitement of the
+            cryptocurrency market. Moreover, certain meme coins may align with
+            particular values or causes, motivating individuals to support them
+            financially. Regardless of the reason, it's crucial for investors to
+            approach meme coins with caution, considering their speculative
+            nature and associated risks.
+          </p>
+        </div>
+        <div className="form">
+          <form action="">
+            <label for="exampleFormControlInput1" class="form-label">
+              Name:
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Arsh Saini"
+            />
+            <label for="exampleFormControlInput1" class="form-label">
+              Email:
+            </label>
+            <input
+              type="email"
+              className="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+
+            <label for="exampleFormControlTextarea1" class="form-label">
+              Enter Message:
+            </label>
+            <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              rows={1}
+            ></textarea>
+            <button type="button" className="btn">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }
