@@ -1,0 +1,63 @@
+.navbar {
+  background-color: rgb(11, 13, 54) !important;
+}
+
+.navbar-nav a {
+  color: white !important;
+  transition: 500ms ease;
+  margin-right: 2rem;
+  border: 2px solid white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 3rem;
+  margin-top: 5px;
+}
+
+.navbar i {
+  margin-right: 1rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navbar-nav a:hover {
+  scale: 103%;
+  color: rgb(11, 13, 54) !important;
+  background-color: white;
+}
+
+#navbarNav {
+  align-items: flex-end;
+}
+
+.fa-bars {
+  color: white !important;
+}
+
+.navbar img {
+  background-color: transparent;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+.navbar-brand {
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  transition: 500ms ease-in-out;
+}
+
+.navbar-brand:hover {
+  scale: 1.1;
+  img {
+    transform: rotate(20deg) !important;
+  }
+}

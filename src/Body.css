@@ -1,0 +1,22 @@
+.Body {
+  padding: 1rem;
+  margin-top: 2rem;
+  color: rgb(11, 13, 54);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Body h2 {
+  color: rgb(11, 13, 54);
+}
+
+.Body p {
+  font-size: 20px;
+}
+
+.Body img {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+}
