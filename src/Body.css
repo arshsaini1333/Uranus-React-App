@@ -41,15 +41,31 @@
   margin-top: 1.5rem;
   display: flex;
   justify-content: center;
+  /* align-items: center; */
 }
 
 .top h3 {
   margin: 10px 0px;
 }
 
+.top .para {
+  width: 55%;
+  margin-right: 20px;
+}
+
+.top .img {
+  width: 40%;
+}
+
 @media screen and (max-width: 991px) {
   .Body .top {
     display: grid;
+  }
+  .Body .top .para {
+    width: 100%;
+  }
+  .Body .top .img {
+    width: 100%;
   }
   .Body .Uranus {
     width: 65%;
