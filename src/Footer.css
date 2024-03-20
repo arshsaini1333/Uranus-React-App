@@ -37,6 +37,7 @@
   align-items: center;
   opacity: 0.7;
   color: white;
+  margin: 10px;
 }
 
 .author span:hover {
