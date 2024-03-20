@@ -7,6 +7,7 @@
 }
 
 .Body .Uranus {
+  text-transform: uppercase;
   padding: 1rem;
   width: 30%;
   align-self: center;
@@ -25,10 +26,6 @@
   cursor: pointer;
   background-color: white;
   border-radius: 15px;
-}
-
-.Body p {
-  font-size: 20px;
 }
 
 .Body img {
@@ -78,4 +75,12 @@
     width: 80%;
     padding: 1rem;
   }
+}
+
+.mid {
+  margin-top: 20px;
+}
+
+.mid p {
+  margin-top: 20px;
 }

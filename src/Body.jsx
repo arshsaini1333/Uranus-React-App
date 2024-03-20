@@ -1,4 +1,3 @@
-import bc from "./assets/bc.avif";
 import rotateGif from "./assets/rotate.gif";
 import "./Body.css";
 export default function Body() {
@@ -42,7 +41,13 @@ export default function Body() {
           <img src={rotateGif} alt="Uranus image" />
         </div>
       </div>
-      <div className="mid"></div>
+      <div className="mid">
+        <h1 className="Uranus">The Memeifesto</h1>
+        <p>
+          Welcome to the wild side of crypto - where memes aren't just dreams,
+          and astrology isn’t just your daily horoscope.
+        </p>
+      </div>
     </div>
   );
 }
