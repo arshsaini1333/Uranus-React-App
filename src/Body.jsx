@@ -105,7 +105,7 @@ export default function Body() {
           </div>
         </div>
       </div>
-      <h1 className="Uranus">Get In Touch</h1>
+      <h1 className="Uranus">Building Trust!</h1>
       <div className="bottom">
         <div className="content">
           <h3>Why Do People Buy Meme Coins?</h3>
