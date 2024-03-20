@@ -1,5 +1,9 @@
 import rotateGif from "./assets/rotate.gif";
 import "./Body.css";
+import img1 from "./assets/img1.png";
+import img4 from "./assets/img4.png";
+import img9 from "./assets/img9.png";
+import img10 from "./assets/img10.png";
 export default function Body() {
   return (
     <div className="Body">
@@ -47,6 +51,59 @@ export default function Body() {
           Welcome to the wild side of crypto - where memes aren't just dreams,
           and astrology isn’t just your daily horoscope.
         </p>
+        <div className="cards">
+          <div class="card">
+            <img src={img1} class="card-img-top" alt="cardImage" />
+            <div class="card-body">
+              <h5 class="card-title">MEME-1</h5>
+              <p class="card-text">
+                63 Earths can fit inside <br /> the uranus, 64 if you relax 😉
+              </p>
+              <a href="#" class="btn btn-primary">
+                View Meme
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src={img4} class="card-img-top" alt="cardImage" />
+            <div class="card-body">
+              <h5 class="card-title">MEME-2</h5>
+              <p class="card-text">
+                Uranus is leaking 😲 <br />
+                Toxic Gases
+              </p>
+              <a href="#" class="btn btn-primary">
+                View Meme
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src={img9} class="card-img-top" alt="cardImage" />
+            <div class="card-body">
+              <h5 class="card-title">MEME-3</h5>
+              <p class="card-text">
+                Keep the earth clean 🌍 <br />
+                It's not Uranus
+              </p>
+              <a href="#" class="btn btn-primary">
+                View Meme
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src={img10} class="card-img-top" alt="cardImage" />
+            <div class="card-body">
+              <h5 class="card-title">MEME-4</h5>
+              <p class="card-text">
+                We have'nt been to space, <br />
+                But is this a closeup of Uranus 🤔
+              </p>
+              <a href="#" class="btn btn-primary">
+                View Meme
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
